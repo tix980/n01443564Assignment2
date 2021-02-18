@@ -8,7 +8,27 @@ using System.Web.Http;
 namespace n01443564Assignment2.Controllers
 {
     public class J1Controller : ApiController
-    { 
+    {
+        ///This question is from https://cemc.math.uwaterloo.ca/contests/computing/2006/stage1/juniorEn.pdf.
+        ///objective: Create a method that would calculate the total calories of the meal by 
+        ///entering four intergers that represent different index choices of the meal.
+        /// <summary>
+        /// This method will take in four interger input values(index burger choice, drink choice,
+        /// side choice, and dessert choice) and output the total calories of the meal.
+        /// </summary>
+        /// <param name="burger">an interger that represents index burger choice</param>
+        /// <param name="drink">an interger that represents index drink choice</param>
+        /// <param name="side">an interger that represents index side choice</param>
+        /// <param name="dessert">an interger that represents index dessert choice</param>
+        /// <returns>total calories of the meal</returns>
+        /// <example>
+        /// GET: api/J1/Menu/4/4/4/4 ->
+        /// Your total calorie count is 0
+        /// </example>
+        /// <example>
+        /// GET: api/J1/Menu/1/2/3/4 ->
+        /// Your total calorie count is 691
+        /// </example>
         [Route("api/J1/Menu/{burger}/{drink}/{side}/{dessert}")]
         [HttpGet]
         public string Menu(int burger, int drink, int side, int dessert)
