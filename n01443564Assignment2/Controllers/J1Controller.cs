@@ -11,15 +11,15 @@ namespace n01443564Assignment2.Controllers
     {
         ///This question is from https://cemc.math.uwaterloo.ca/contests/computing/2006/stage1/juniorEn.pdf.
         ///objective: Create a method that would calculate the total calories of the meal by 
-        ///entering four intergers that represent different index choices of the meal.
+        ///entering four integers representing different index choices of the meal on the menu.
         /// <summary>
-        /// This method will take in four interger input values(index burger choice, drink choice,
+        /// This method will take in four integer input values(index burger choice, drink choice,
         /// side choice, and dessert choice) and output the total calories of the meal.
         /// </summary>
-        /// <param name="burger">an interger that represents index burger choice</param>
-        /// <param name="drink">an interger that represents index drink choice</param>
-        /// <param name="side">an interger that represents index side choice</param>
-        /// <param name="dessert">an interger that represents index dessert choice</param>
+        /// <param name="burger">an integer that represents index burger choice</param>
+        /// <param name="drink">an integer that represents index drink choice</param>
+        /// <param name="side">an integer that represents index side choice</param>
+        /// <param name="dessert">an integer that represents index dessert choice</param>
         /// <returns>total calories of the meal</returns>
         /// <example>
         /// GET: api/J1/Menu/4/4/4/4 ->
