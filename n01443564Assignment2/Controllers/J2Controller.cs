@@ -28,7 +28,7 @@ namespace n01443564Assignment2.Controllers
         /// "Fish Rising"
         /// </example>
         /// Get: api/J2/FishFinder/9/6/5/2 ->
-        /// "Fish DIving"
+        /// "Fish Diving"
         /// </example>
         /// Get: api/J2/FishFinder/5/5/5/5->
         /// "Fish At Constant Depth"
